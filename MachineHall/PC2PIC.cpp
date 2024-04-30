@@ -63,7 +63,7 @@ int main() {
     std::string plyFilePath = "point_cloud_rgb.ply";
     std::vector<Point3D> points = loadPlyFile(plyFilePath);
 
-    double focalLengthU = 458.654; // Replace with actual intrinsic data
+    double focalLengthU = 458.654; 
     double focalLengthV = 457.296;
     double cu = 367.215;
     double cv = 248.375;
